@@ -1,0 +1,23 @@
+{
+  "id": "dockerstress",
+  "cpu": 0.75,
+  "autoscale": {
+    "cpu": 20,
+    "memory": 20
+  },
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  }
+}
