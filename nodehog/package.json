@@ -1,0 +1,19 @@
+{
+  "name": "nodehog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredgorski/lcp_nodehog.git"
+  },
+  "author": "Jared Gorski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredgorski/lcp_nodehog/issues"
+  },
+  "homepage": "https://github.com/jaredgorski/lcp_nodehog#readme"
+}

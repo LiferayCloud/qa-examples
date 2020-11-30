@@ -1,0 +1,4 @@
+{
+  "id": "nodehog",
+  "command": ["npm", "run", "start"]
+}
