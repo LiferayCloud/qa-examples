@@ -1,0 +1,6 @@
+{
+	"id": "alpine3",
+	"dependencies": ["alpine2"],
+	"cpu": 0.1,
+	"memory": 216
+}

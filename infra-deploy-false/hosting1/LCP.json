@@ -1,0 +1,8 @@
+{
+  "id": "hosting1",
+  "environments": {
+    "infra": {
+      "deploy": false
+    }
+  }
+}

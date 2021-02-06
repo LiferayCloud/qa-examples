@@ -1,0 +1,24 @@
+{
+  "kind": "StatefulSet",
+  "id": "ui",
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 1,
+  "volumes": {
+    "storage2": "/opt/storage2"
+  }
+}
