@@ -1,0 +1,24 @@
+{
+  "id": "ui",
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 2,
+  "volumes": {
+    "storage1": "/opt/storage1",
+    "storage2": "/opt/storage2"
+  }
+}
