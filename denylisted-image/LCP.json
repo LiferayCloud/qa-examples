@@ -1,0 +1,5 @@
+{
+  "kind": "Deployment",
+  "id": "database",
+  "image": "liferaycloud/database:3.0.2"
+}
