@@ -1,0 +1,28 @@
+{
+  "id": "ui",
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "loadBalancer": {
+    "targetPort": 80,
+    "certs": [
+      {
+        "customDomains": ["qa01.test.test", "qa02.test.test"]
+      }
+    ]
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 1
+}
