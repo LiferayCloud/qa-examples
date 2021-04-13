@@ -1,0 +1,19 @@
+{
+  "id": "nodehello2",
+  "kind": "Deployment",
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  }
+}
