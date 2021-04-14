@@ -1,4 +1,4 @@
-# hosting-partial-builds
+# node-partial-builds
 Deploying hosting-partial-builds should cause the build to fail.
 
 - nodehelloworld1 is a valid build
