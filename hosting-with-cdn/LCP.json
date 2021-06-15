@@ -1,0 +1,21 @@
+{
+  "id": "ui",
+  "loadBalancer": {
+    "cdn": true,
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 1
+}
