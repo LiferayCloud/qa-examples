@@ -1,0 +1,4 @@
+{
+  "id": "ui3",
+  "dependencies": ["ui2"]
+}
