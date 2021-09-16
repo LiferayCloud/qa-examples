@@ -1,9 +1,6 @@
 {
   "id": "ui",
   "loadBalancer": {
-    "targetPort": 80
-  },
-  "loadBalancer": {
     "targetPort": 80,
     "certs": [
       {
