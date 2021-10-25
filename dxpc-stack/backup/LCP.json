@@ -1,0 +1,8 @@
+{
+  "kind": "Deployment",
+  "id": "backup",
+  "image": "liferaycloud/backup:4.0.9",
+  "memory": 1024,
+  "cpu": 2,
+  "scale": 1
+}

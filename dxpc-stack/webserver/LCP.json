@@ -1,0 +1,8 @@
+{
+  "kind": "Deployment",
+  "id": "webserver",
+  "image": "liferaycloud/nginx:1.16.1-4.0.3",
+  "memory": 512,
+  "cpu": 2,
+  "scale": 1
+}
