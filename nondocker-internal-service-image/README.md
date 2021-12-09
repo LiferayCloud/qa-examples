@@ -1,4 +1,4 @@
-# hosting
+# nondocker-internal-service-image
 Basic hosting service with an image for an internal service from a registry
 that is not docker.io.
 
