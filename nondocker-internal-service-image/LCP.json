@@ -1,0 +1,21 @@
+{
+  "id": "ui",
+  "image": "gcr.io/liferaycloud/backup:1.0.0",
+  "loadBalancer": {
+    "targetPort": 80
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 1
+}
