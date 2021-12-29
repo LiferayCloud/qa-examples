@@ -1,0 +1,30 @@
+{
+  "id": "ui",
+  "loadBalancer": {
+    "targetPort": 80,
+    "customDomains": [
+      "qatest1.test.com",
+      "qatest2.test.com",
+      "qatest3.test.com",
+      "qatest4.test.com",
+      "qatest5.test.com",
+      "qatest6.test.com",
+      "qatest7.test.com",
+      "qatest8.test.com"
+    ]
+  },
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "memory": 512,
+  "cpu": 1
+}
