@@ -1,0 +1,12 @@
+{
+  "id": "cronjob",
+  "kind": "CronJob",
+  "concurrencyPolicy": "Allow",
+  "schedule": "7 23 * * *",
+  "cpu": 1,
+  "scale": 1,
+  "memory": 100,
+  "volumes": {
+      "cronjobstorage": "/opt/cronjobstorage"
+  }
+}
