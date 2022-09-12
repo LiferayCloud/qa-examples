@@ -1,0 +1,10 @@
+{
+  "id": "job",
+  "kind": "Job",
+  "cpu": 1,
+  "scale": 1,
+  "memory": 100,
+  "volumes": {
+      "jobstorage": "/opt/jobstorage"
+  }
+}
