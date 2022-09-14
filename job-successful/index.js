@@ -5,7 +5,7 @@ function delay(time) {
 async function run() {
   await delay(5000);
 
-  console.log('This was printed after about 5 seconds delay');
+  console.log('This job ran successfully');
 }
 
 run();
