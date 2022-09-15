@@ -2,7 +2,7 @@
   "id": "cronjob",
   "kind": "CronJob",
   "concurrencyPolicy": "Allow",
-  "schedule": "7 23 * * *",
+  "schedule": "* * * * *",
   "cpu": 1,
   "scale": 1,
   "memory": 100,
