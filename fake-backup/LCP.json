@@ -1,5 +1,6 @@
 {
   "id": "backup",
+  "image": "liferaycloud/backup:5.3.1",
   "loadBalancer": {
     "targetPort": 80
   },
