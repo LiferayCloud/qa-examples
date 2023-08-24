@@ -1,0 +1,18 @@
+{
+  "kind": "Deployment",
+  "id": "database",
+  "image": "liferaycloud/database:5.1.4",
+  "memory": 1024,
+  "cpu": 2,
+  "scale": 1,
+  "ports": [
+    {
+      "port": 3306,
+      "external": false
+    },
+    {
+      "port": 3000,
+      "external": false
+    }
+  ]
+}
