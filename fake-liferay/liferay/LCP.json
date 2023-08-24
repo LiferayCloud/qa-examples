@@ -3,7 +3,7 @@
   "id": "liferay",
   "image": "liferaycloud/liferay-dxp:7.4-5.3.0",
   "memory": 8192,
-  "cpu": 8,
+  "cpu": 2,
   "scale": 1,
   "dependencies": [
     "database"
