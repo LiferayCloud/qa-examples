@@ -1,5 +1,5 @@
 {
-  "id": "uialittlelongerabc",
+  "id": "uishort",
   "loadBalancer": {
     "targetPort": 80
   },
