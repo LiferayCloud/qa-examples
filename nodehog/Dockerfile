@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 WORKDIR /app/
 
-COPY package.json package-lock.json /app/
+COPY package.json package-lock.json .npmrc /app/
 RUN npm ci --only=production
 
 COPY . /app/

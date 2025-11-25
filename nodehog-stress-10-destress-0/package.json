@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jaredgorski/lcp_nodehog/issues"
   },
-  "homepage": "https://github.com/jaredgorski/lcp_nodehog#readme"
+  "homepage": "https://github.com/jaredgorski/lcp_nodehog#readme",
+  "devDependencies": {
+    "@lavamoat/preinstall-always-fail": "^2.1.1"
+  }
 }
