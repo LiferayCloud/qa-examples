@@ -1,5 +1,5 @@
 {
-  "id": "ui",
+  "id": "uitest123456789-1234567890123456789-1234567890123456789-1234567890",
   "image": "gcr.io/liferaycloud/backup:1.0.0",
   "loadBalancer": {
     "targetPort": 80

@@ -1,5 +1,5 @@
 {
-  "id": "cronjob",
+  "id": "cronjobtest123456789-1234567890123456789-1234567890123456789-1234567890",
   "kind": "CronJob",
   "concurrencyPolicy": "Allow",
   "schedule": "invalid*",
